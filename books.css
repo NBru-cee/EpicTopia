@@ -79,12 +79,12 @@ h2 {
 #book-list li {
      padding: 15px 20px;
      margin: 20px 10px;
-     border-bottom: 5px solid #ddd;
+     border: 5px solid #fff;
      transition: border 0.2s ease-in-out;
 }
 
 #book-list li:hover {
-     border-bottom: 5px solid var(--primary-color);
+     border: 5px solid var(--primary-color);
 }
 
 .delete {
