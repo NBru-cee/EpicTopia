@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="author " content="NKUNDABAGENZI Bruce">
+     <meta name="description" content="This is an app to show Programmers the books to read">
+     <link rel="stylesheet" href="books.css" type="text/css">
+     <title>Epitopia</title>
+</head>
+<body>
+     <div id="wrapper">
+          <header>
+               <div id="page-banner">
+                    <h1 class="title">Epitopia</h1>
+                    <p>Adventure books for all</p>
+                    <img src="novels.jpg" alt="novels">
+                    <form id="search-book">
+                         <input type="text" placeholder="Search books...">
+                    </form>
+               </div>
+          </header>
+          <div id="book-list">
+               <h2 class="title">Books For You</h2>
+               <ul>
+                    <li>
+                         <span class="name">
+                              <a class="nam" href="https://www.gutenberg.org/cache/epub/69700/pg69700-images.html">The Case Book of Sherlock Holmes</a>
+                              <span class="delete" title="Delete this book">Delete</span>
+                         </span>
+                         <span class="author">by Arthur Conan Doyle</span>                        
+                    </li>
+                    <li>
+                         <span class="name">
+                              <a class="nam" href="https://www.gutenberg.org/cache/epub/78/pg78-images.html">Tarzan of the Apes</a>
+                          <span class="delete" title="Delete this book">Delete</span>
+                         </span>
+                         <span class="author">by Edgar Rice Burroughs</span>                      
+                    </li>
+                    <li>
+                         <span class="name">
+                              <a class="nam" href="https://www.gutenberg.org/cache/epub/1259/pg1259-images.html">Twenty Years After</a>
+                          <span class="delete" title="Delete this book">Delete</span>
+                         </span>
+                          <span class="author">by Alexandre Dumas, Père</span>                       
+                    </li>
+                    <li>
+                         <span class="name">
+                              <a class="nam" href="https://www.gutenberg.org/cache/epub/421/pg421-images.html">Kidnapped</a>
+                         <span class="delete" title="Delete this book">Delete</span>
+                         </span>
+                         <span class="author">by Robert Louis Stevenson</span>                        
+                    </li>
+               </ul>
+          </div>
+          <form id="add-book">
+               <input type="checkbox" class="hide">
+               <label for="hide">Hide All Books</label><br>
+               <input type="text" id="new-book" placeholder="Add a book...">
+               <input type="text" id="author" placeholder="Add author..">
+               <button title="Click to add a book" class="add-book-btn">Upload</button>
+          </form>
+          <div id="tabbed-content">
+               <ul class="tabs">
+                    <li  data-target="#about">
+                          About
+                    </li>
+                    <li data-target="#contact">
+                         Contact
+                   </li>
+                      <li  class="hide">Hide</li>
+               </ul>
+               <div class="panel" id="about">
+                    <p>About us</p>
+                    <p>
+                         This is a website that is intended to help you <br>
+                         access online books easily and free <br>
+                          with reading different kinds of epic  books <br>
+                           written by differrent authors across the world
+                    </p>
+               </div>
+               <div class="panel" id="contact">
+                    <p>Contact us</p>
+                    <p>
+                          For mor information contact me at :
+                          <address>
+                              999 Nyabugogo-Nyacyonga <br>
+                              Jali , <i>MO 4574-98765</i> <br> 
+                              Tel : <a href="tel:+000-000-000">079-865-4321</a>
+                          </address>
+                    </p>
+               </div>
+          </div>
+     </div>
+     <script src="books.js"></script>
+</body>
+</html>
