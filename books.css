@@ -1,5 +1,5 @@
 html {
-     font-family: 'Georgia', 'Times New Roman', serif;
+     font-family: 'Ubuntu', sans-serif;
      --secondary-color: rgb(55, 141, 55);
      --primary-color: #0e540e;
 }
@@ -36,8 +36,8 @@ h2 {
      border-radius: 20px;
 }
 
-@media (max-width:600px){
-     #page-banner img{
+@media (max-width:600px) {
+     #page-banner img {
           width: 400px;
      }
 }
