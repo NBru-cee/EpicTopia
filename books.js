@@ -40,8 +40,8 @@ document.addEventListener("DOMContentLoaded", function () {
         li.appendChild(bookName);
         li.appendChild(author);
         list.appendChild(li);
-        value = "";
-        words = "";
+        value.textContent = "";
+        words.textContent = "";
     });
 
     //hide books
