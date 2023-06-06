@@ -10,3 +10,6 @@ Live demo: https://nbru-cee.github.io/epitopia/
 1. HTML
 2. CSS
 3. JavaScript
+
+easily access it here:
+https://nbru-cee.github.io/epitopia/
