@@ -1,4 +1,4 @@
-# Epitopia
+# Epictopia
 
 Website to easily access books offline
 
